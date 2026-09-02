@@ -3,7 +3,7 @@ import requests
 import psycopg2
 from datetime import datetime
 
-# Load OpenAQ API Key from secrets.json
+# 1. Load OpenAQ API Key from secrets.json
 try:
     with open('secrets.json', 'r') as f:
         secrets = json.load(f)
@@ -12,6 +12,7 @@ except FileNotFoundError:
     print("Error: secrets.json file not found. Please create it in the root folder.")
     exit(1)
 
+# 2. Establish Connection to your local PostgreSQL Database 
 try:
     conn = psycopg2.connect(
         dbname="aqi_project",
@@ -22,8 +23,7 @@ except Exception as e:
     print(f"Database Connection Error: {e}")
     exit(1)
 
-# Configure the OpenAQ API 
-
+# 3. Configure the OpenAQ API 
 locations_url = "https://api.openaq.org/v3/locations"
 headers = {
     "X-API-Key": api_key,
@@ -31,7 +31,7 @@ headers = {
 }
 params = {
     "coordinates": "19.0760,72.8777",
-    "radius": 25000,  
+    "radius": 25000, 
     "limit": 100
 }
 
@@ -53,7 +53,7 @@ try:
             latitude = coordinates.get('latitude')
             longitude = coordinates.get('longitude')
             
-          
+            # Map each sensor ID to its specific air quality parameter
             sensor_map = {}
             for sensor in loc.get('sensors', []):
                 s_id = sensor.get('id')
@@ -80,7 +80,6 @@ try:
                     sensor_id = record.get('sensorsId')
                     val = record.get('value')
                     
-                    # Look up pollutant name and unit using our map
                     poll_info = sensor_map.get(sensor_id)
                     if not poll_info or val is None or val < 0:
                         continue
@@ -88,19 +87,17 @@ try:
                     pollutant = poll_info["name"]
                     unit = poll_info["unit"]
                     
- 
+                    # Store PM2.5, PM10, and NO2
                     if pollutant not in ["pm25", "pm10", "no2"]:
                         continue
                         
                     utc_time_str = record.get('datetime', {}).get('utc')
                     if utc_time_str:
-                        # Clean trailing 'Z' and parse robustly
                         clean_time = utc_time_str.replace("Z", "")
                         try:
                             recorded_at = datetime.fromisoformat(clean_time)
                         except ValueError:
-                            # Fallback parser
-                            recorded_at = datetime.strptime(clean_time.split(".")[0], "%Y-%m-%dT%H:%M:%S")
+                            recorded_at = datetime.strptime(clean_time.split("."), "%Y-%m-%dT%H:%M:%S")
                     else:
                         recorded_at = None
                         
@@ -114,7 +111,6 @@ try:
             else:
                 print(f"Skipping readings for {loc_name} (Latest API check failed with {latest_response.status_code})")
                 
-        # Commit the transaction to save all insertions
         conn.commit()
         print(f"Successfully processed and saved {inserted_records} active entries into your PostgreSQL database!")
         
@@ -127,7 +123,6 @@ except Exception as e:
     conn.rollback()
 
 finally:
-    # Safely close connections
     cursor.close()
     conn.close()
     print("Database connection safely closed.")

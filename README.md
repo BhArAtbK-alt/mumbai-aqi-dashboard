@@ -1,28 +1,37 @@
-# Mumbai Live Air Quality (AQI) Data Engineering & Analytics Pipeline
+# Mumbai Live Air Quality Index (AQI) Data Pipeline & Dashboard
 
-An end-to-end data engineering and analytics pipeline that extracts live air quality metrics across Mumbai from the **OpenAQ v3 API**, stores the data in a local **PostgreSQL** database via secure Unix Sockets, analyzes patterns using SQL, and visualizes pollution hotspots in Python.
+An end-to-end data engineering and analytics pipeline that extracts live air quality metrics across the Mumbai Metropolitan Region from the **OpenAQ v3 API**, stores the data in a local **PostgreSQL** database via secure Unix Sockets, and delivers a fully interactive, map-enabled web dashboard using **Streamlit** and **Plotly**.
 
-## 🚀 Architecture Overview
+👉 **[View the Live Interactive Dashboard Here](https://YOUR_STREAMLIT_APP_URL_HERE)** *(Powered by automated GitHub Data Backups)*
+
+## 🚀 System Architecture
 ```text
-[OpenAQ v3 API] ➔ [Python Extract Script] ➔ [Unix Socket (Peer Auth)] ➔ [PostgreSQL Database] ➔ [SQL Analysis & Pandas] ➔ [Matplotlib Visualization]
-🛠️ Tech Stack
-Languages: Python 3.12, SQL
-Database: PostgreSQL (with pgAdmin for visualization)
-Libraries: Requests, Psycopg2, Pandas, Matplotlib
-Security & Version Control: Git, Sockets Peer Authentication
-📂 Project Structure
-mumbai-aqi-dashboard/
-├── .gitignore               # Prevents virtual env & keys from committing
-├── requirements.txt         # Project dependencies
-├── secrets.json             # Private API credentials (locally ignored)
-├── secrets-example.json     # Safe template for public use
-├── mumbai_aqi_trends.png    # Output visualization
-├── sql/
-│   └── queries.sql          # Analytics queries
-└── scripts/
-    ├── extract_aqi.py       # API extraction and pipeline loader
-    └── visualize_aqi.py     # Database connector & charting script
-📊 Database Schema (readings Table)
+[OpenAQ v3 API] ➔ [Python Ingestion Script] ➔ [Unix Socket (Peer Auth)] ➔ [PostgreSQL Database] ➔ [Streamlit Dashboard (Dual-Mode DB/CSV)] ➔ [Interactive Map & Plotly Charts]
+```
+
+## 📸 Dashboard Preview
+Here is a look at the interactive system in action:
+
+### Geospatial Mapping & Metrics Tracker
+![Dashboard Map Interface](images/dashboard_map.png)
+
+### Pollution Hotspot Analysis
+![Dashboard Charts Interface](images/dashboard_harts.png)
+
+## 🛠️ Tech Stack
+- **Data Pipeline:** Python 3.12 (Requests, Psycopg2, Pandas)
+- **Database:** PostgreSQL (configured with secure Local Unix Sockets)
+- **Web Dashboard:** Streamlit, Plotly Express
+- **Operating System:** Fedora Linux
+
+---
+
+## 🏃 Setup & Installation
+
+### 1. Database Setup
+```bash
+createdb aqi_project
+psql -d aqi_project -c "
 CREATE TABLE readings (
     id SERIAL PRIMARY KEY,
     location_name VARCHAR(255),
@@ -32,23 +41,17 @@ CREATE TABLE readings (
     value DOUBLE PRECISION,
     unit VARCHAR(50),
     recorded_at TIMESTAMP
-);
-📈 Key Insights & SQL Analysis
-Using PostgreSQL, we evaluated the live air quality data retrieved from 44 monitoring stations across the Mumbai Metropolitan Region:
-1. Most Polluted Locations (PM2.5 Levels)
-Our horizontal bar chart showcases the highest-risk zones for particulate matter:
-2. SQL Analysis Executed
--- Query 1: Calculate Average Pollution Levels across different pollutants
-SELECT pollutant, ROUND(AVG(value)::numeric, 2) as avg_value, unit 
-FROM readings 
-GROUP BY pollutant, unit;
+);"
+```
 
--- Query 2: Get active stations ordered by sensor reading counts
-SELECT location_name, COUNT(*) as reading_count 
-FROM readings 
-GROUP BY location_name 
-ORDER BY reading_count DESC;
+### 2. Install & Ingest Data
+```bash
+pip install -r requirements.txt
+python scripts/extract_aqi.py
+python scripts/export_to_csv.py
+```
 
-Developed as a portfolio project showcasing production-grade Python databases and secure Linux data pipelines.
-
----
+### 3. Run Web Dashboard Locally
+```bash
+streamlit run app.py
+```

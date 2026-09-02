@@ -1,0 +1,174 @@
+"Column(name='location_name', type_code=1043)","Column(name='latitude', type_code=701)","Column(name='longitude', type_code=701)","Column(name='pollutant', type_code=1043)","Column(name='value', type_code=701)","Column(name='unit', type_code=1043)","Column(name='recorded_at', type_code=1114)"
+Navi Mumbai Municipal Corporation Airoli,19.1494,72.9986,pm10,40.56,µg/m³,2020-04-09 00:15:00
+Navi Mumbai Municipal Corporation Airoli,19.1494,72.9986,pm25,20.4,µg/m³,2017-10-04 04:15:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,pm25,16.45,µg/m³,2022-05-22 07:45:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,no2,37.46,µg/m³,2022-10-16 11:45:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,pm10,72.15,µg/m³,2022-10-16 11:45:00
+"Colaba, Mumbai - MPCB",18.91,72.82,no2,58.79,µg/m³,2022-10-31 01:45:00
+"Colaba, Mumbai - MPCB",18.91,72.82,pm25,72.16,µg/m³,2022-10-31 01:45:00
+"Colaba, Mumbai - MPCB",18.91,72.82,pm10,157.8,µg/m³,2022-10-31 01:45:00
+"Colaba, Mumbai - MPCB",18.91,72.82,pm25,738.75,µg/m³,2026-06-22 00:15:00
+"Colaba, Mumbai - MPCB",18.91,72.82,pm10,138.0,µg/m³,2026-05-28 18:15:00
+"Colaba, Mumbai - MPCB",18.91,72.82,no2,21.9,ppb,2026-06-22 00:00:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,no2,34.73,ppb,2026-08-27 02:15:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,pm10,43.17,µg/m³,2026-08-27 02:15:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,pm25,13.0,µg/m³,2026-08-27 02:00:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,pm25,40.0,µg/m³,2022-10-16 15:45:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,no2,95.36,µg/m³,2022-10-16 15:45:00
+"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,pm10,159.0,µg/m³,2022-10-16 15:45:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,pm25,17.6,µg/m³,2026-08-27 02:15:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,pm10,34.32,µg/m³,2026-08-27 02:00:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,no2,7.02,ppb,2026-08-27 02:15:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,pm25,72.0,µg/m³,2022-10-31 02:00:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,no2,38.05,µg/m³,2022-10-31 02:00:00
+"Kurla, Mumbai - MPCB",19.0863,72.8888,pm10,67.0,µg/m³,2022-10-31 02:00:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,pm10,37.05,µg/m³,2026-08-27 02:00:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,pm25,19.1,µg/m³,2026-08-27 02:00:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,no2,10.59,ppb,2026-08-27 02:00:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,pm10,184.0,µg/m³,2022-10-31 01:45:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,no2,15.97,µg/m³,2022-10-31 01:45:00
+"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,pm25,44.0,µg/m³,2022-10-31 01:45:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,pm10,15.2,µg/m³,2026-08-26 23:15:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,pm25,2.6,µg/m³,2026-08-26 23:15:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,no2,2.4,ppb,2026-08-26 23:15:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,pm10,47.0,µg/m³,2022-10-16 13:15:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,no2,20.45,µg/m³,2022-10-16 13:15:00
+"Powai, Mumbai - MPCB",19.1375,72.915056,pm25,28.0,µg/m³,2022-10-16 13:15:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm10,45.96,µg/m³,2026-08-24 09:15:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm25,11.76,µg/m³,2026-08-24 09:15:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,no2,9.2,ppb,2026-08-24 09:15:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm10,121.0,µg/m³,2022-10-31 02:00:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,no2,0.08,µg/m³,2022-10-31 02:00:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm25,66.0,µg/m³,2022-10-31 02:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,no2,7.6,ppb,2026-08-22 05:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,pm25,10.0,µg/m³,2026-08-22 05:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,pm10,29.0,µg/m³,2026-08-22 05:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,pm25,57.0,µg/m³,2022-10-31 02:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,no2,11.5,µg/m³,2022-10-31 02:00:00
+"Borivali East, Mumbai - MPCB",19.227474,72.864394,pm10,55.0,µg/m³,2022-10-31 02:00:00
+"Sion, Mumbai - MPCB",19.047,72.8746,pm25,8.36,µg/m³,2026-08-27 02:30:00
+"Sion, Mumbai - MPCB",19.047,72.8746,pm10,19.07,µg/m³,2026-08-27 02:30:00
+"Sion, Mumbai - MPCB",19.047,72.8746,no2,34.96,ppb,2026-08-27 02:30:00
+"Sion, Mumbai - MPCB",19.047,72.8746,pm25,56.7,µg/m³,2022-10-31 01:45:00
+"Sion, Mumbai - MPCB",19.047,72.8746,no2,84.9,µg/m³,2022-10-31 01:45:00
+"Sion, Mumbai - MPCB",19.047,72.8746,pm10,130.97,µg/m³,2022-10-31 01:45:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,pm10,1253.51,µg/m³,2026-05-20 19:45:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,no2,8.7,ppb,2026-05-30 09:30:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,pm25,987.0,µg/m³,2026-05-30 09:30:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,pm10,113.13,µg/m³,2022-10-31 01:45:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,no2,5.36,µg/m³,2022-10-31 01:45:00
+"Vile Parle West, Mumbai - MPCB",19.10861,72.83622,pm25,56.6,µg/m³,2022-10-31 01:45:00
+"Bandra, Mumbai - MPCB",19.0627,72.84614,pm10,104.3,µg/m³,2021-12-24 04:45:00
+"Bandra, Mumbai - MPCB",19.0627,72.84614,pm25,38.0,µg/m³,2021-12-24 04:45:00
+"Bandra, Mumbai - MPCB",19.0627,72.84614,no2,0.0,µg/m³,2021-11-19 11:00:00
+Mumbai,19.07283,72.88261,pm25,13.0,µg/m³,2026-09-02 12:30:00
+"Bandra Kurla Complex, Mumbai - IITM",19.053536000000005,72.84643,no2,143.05,µg/m³,2022-10-16 15:45:00
+"Bandra Kurla Complex, Mumbai - IITM",19.053536000000005,72.84643,pm25,26.81,µg/m³,2022-10-16 15:45:00
+"Bandra Kurla Complex, Mumbai - IITM",19.053536000000005,72.84643,pm10,152.38,µg/m³,2022-10-16 15:45:00
+"Deonar, Mumbai - IITM",19.04946,72.923,no2,4.53,µg/m³,2022-10-16 15:45:00
+"Deonar, Mumbai - IITM",19.04946,72.923,pm25,75.1,µg/m³,2022-10-16 15:45:00
+"Deonar, Mumbai - IITM",19.04946,72.923,pm10,156.78,µg/m³,2022-10-16 15:45:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,pm10,39.82,µg/m³,2026-08-27 02:00:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,pm25,17.71,µg/m³,2026-08-27 02:00:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,no2,14.22,ppb,2026-08-27 02:00:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,no2,1.44,µg/m³,2022-07-08 07:15:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,pm25,0.0,µg/m³,2022-07-08 07:15:00
+"Borivali East, Mumbai - IITM",19.23241,72.86895,pm10,36.65,µg/m³,2022-07-08 07:15:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,pm10,14.68,µg/m³,2026-08-27 02:15:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,no2,16.17,ppb,2026-08-27 02:15:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,pm25,4.09,µg/m³,2026-08-27 02:15:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,pm25,3.99,µg/m³,2022-10-16 15:45:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,pm10,101.09,µg/m³,2022-10-16 15:45:00
+"Malad West, Mumbai - IITM",19.19709,72.82204,no2,1.96,µg/m³,2022-10-16 15:45:00
+"Sector-19A Nerul, Navi Mumbai - IITM",19.044,73.03250000000001,pm10,108.46,µg/m³,2022-10-16 16:00:00
+"Sector-19A Nerul, Navi Mumbai - IITM",19.044,73.03250000000001,pm25,70.84,µg/m³,2022-10-16 16:00:00
+"Sector-19A Nerul, Navi Mumbai - IITM",19.044,73.03250000000001,no2,32.03,µg/m³,2022-10-16 16:00:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,pm10,36.74,µg/m³,2026-08-27 02:15:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,pm25,13.14,µg/m³,2026-08-27 02:15:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,no2,4.65,ppb,2026-08-27 02:15:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,no2,116.44,µg/m³,2022-10-16 13:00:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,pm25,32.74,µg/m³,2022-10-16 13:00:00
+"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,pm10,41.66,µg/m³,2022-10-16 13:00:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,no2,17.06,ppb,2026-08-27 02:30:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,pm10,35.83,µg/m³,2026-08-27 02:30:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,pm25,8.0,µg/m³,2026-08-27 02:30:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,pm25,5.21,µg/m³,2022-09-22 05:30:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,no2,1.34,µg/m³,2022-09-22 05:30:00
+"Khindipada-Bhandup West, Mumbai - IITM",19.164394,72.928297,pm10,11.81,µg/m³,2022-09-22 05:30:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,pm10,26.0,µg/m³,2026-08-27 01:45:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,no2,10.74,ppb,2026-08-27 01:45:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,pm25,10.2,µg/m³,2026-08-27 02:00:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,pm10,86.0,µg/m³,2022-10-16 15:45:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,no2,18.98,µg/m³,2022-10-16 15:45:00
+"Mulund West, Mumbai - MPCB",19.175,72.9419,pm25,47.69,µg/m³,2022-10-16 15:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,pm25,985.0,µg/m³,2026-04-18 05:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,pm10,2186.85,µg/m³,2026-04-18 05:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,no2,28.85,ppb,2026-04-18 05:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,pm25,47.5,µg/m³,2022-10-16 15:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,no2,13.64,µg/m³,2022-10-16 15:45:00
+"Kandivali East, Mumbai - MPCB",19.2058,72.8682,pm10,145.42,µg/m³,2022-10-16 15:45:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm25,62.24,µg/m³,2022-10-16 16:00:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,no2,45.37,µg/m³,2022-10-16 16:00:00
+"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,pm10,102.6,µg/m³,2022-10-16 16:00:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,pm10,44.47,µg/m³,2026-08-27 02:15:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,pm25,24.97,µg/m³,2026-08-27 02:15:00
+"Pimpleshwar Mandir, Thane - MPCB",19.192056,72.9585188,no2,10.85,ppb,2026-08-25 11:00:00
+"Worli, Mumbai - MPCB",18.9936162,72.8128113,pm25,8.0,µg/m³,2026-08-27 02:30:00
+"Worli, Mumbai - MPCB",18.9936162,72.8128113,no2,3.4,ppb,2026-08-27 02:30:00
+"Worli, Mumbai - MPCB",18.9936162,72.8128113,pm10,404.0,µg/m³,2026-08-27 01:15:00
+"Bandra Kurla Complex, Mumbai - IITM",19.0627,72.84614,no2,4.05,ppb,2026-08-26 06:15:00
+"Bandra Kurla Complex, Mumbai - IITM",19.0627,72.84614,pm10,69.3,µg/m³,2026-08-27 02:30:00
+"Bandra Kurla Complex, Mumbai - IITM",19.0627,72.84614,pm25,17.46,µg/m³,2026-08-27 02:30:00
+"Deonar, Mumbai - IITM",19.04946,72.923,pm10,41.25,µg/m³,2026-08-27 02:15:00
+"Deonar, Mumbai - IITM",19.04946,72.923,pm25,13.06,µg/m³,2026-08-27 02:15:00
+"Deonar, Mumbai - IITM",19.04946,72.923,no2,8.02,ppb,2026-08-27 02:15:00
+"Sector-19A Nerul, Navi Mumbai - IITM",19.044,73.0325,no2,0.0,ppb,2025-09-28 00:00:00
+"Sector-19A Nerul, Navi Mumbai - IITM",19.044,73.0325,pm10,0.0,µg/m³,2025-09-28 00:00:00
+"Kasarvadavali, Thane - MPCB",19.26777,72.97182,pm25,23.05,µg/m³,2026-08-27 02:15:00
+"Kasarvadavali, Thane - MPCB",19.26777,72.97182,pm10,56.75,µg/m³,2026-08-27 02:15:00
+"Kasarvadavali, Thane - MPCB",19.26777,72.97182,no2,9.61,ppb,2026-08-27 02:15:00
+"Sector-2E Kalamboli, Navi Mumbai - MPCB",19.02579,73.10297,pm25,12.86,µg/m³,2026-08-27 02:30:00
+"Sector-2E Kalamboli, Navi Mumbai - MPCB",19.02579,73.10297,pm10,24.33,µg/m³,2026-08-27 02:30:00
+"Sector-2E Kalamboli, Navi Mumbai - MPCB",19.02579,73.10297,no2,4.47,ppb,2026-08-27 02:30:00
+"Upvan Fort, Thane - MPCB",19.222279,72.957979,pm10,31.87,µg/m³,2026-08-27 02:30:00
+"Upvan Fort, Thane - MPCB",19.222279,72.957979,pm25,16.77,µg/m³,2026-08-27 02:30:00
+"Upvan Fort, Thane - MPCB",19.222279,72.957979,no2,2.81,ppb,2026-08-27 02:30:00
+"CBD Belapur, Belapur - MPCB",19.0243902,73.0406721,no2,18.98,ppb,2026-08-27 02:00:00
+"CBD Belapur, Belapur - MPCB",19.0243902,73.0406721,pm25,16.59,µg/m³,2026-08-27 02:00:00
+"CBD Belapur, Belapur - MPCB",19.0243902,73.0406721,pm10,40.45,µg/m³,2026-08-27 02:00:00
+"Kopripada-Vashi, Navi Mumbai - MPCB",19.090337,73.014232,no2,6.99,ppb,2026-08-27 02:15:00
+"Kopripada-Vashi, Navi Mumbai - MPCB",19.090337,73.014232,pm25,8.51,µg/m³,2026-08-27 02:15:00
+"Kopripada-Vashi, Navi Mumbai - MPCB",19.090337,73.014232,pm10,45.01,µg/m³,2026-08-27 02:15:00
+"Bhayandar West, Mira-Bhayandar - MPCB",19.296481,72.840923,no2,3.64,ppb,2026-08-27 01:45:00
+"Bhayandar West, Mira-Bhayandar - MPCB",19.296481,72.840923,pm10,22.27,µg/m³,2026-08-27 01:45:00
+"Bhayandar West, Mira-Bhayandar - MPCB",19.296481,72.840923,pm25,19.67,µg/m³,2026-08-27 01:45:00
+"Mindspace-Malad West, Mumbai - MPCB",19.1878657,72.8304069,pm10,36.55,µg/m³,2026-08-26 03:15:00
+"Mindspace-Malad West, Mumbai - MPCB",19.1878657,72.8304069,no2,14.23,ppb,2026-08-26 03:15:00
+"Mindspace-Malad West, Mumbai - MPCB",19.1878657,72.8304069,pm25,12.11,µg/m³,2026-08-26 03:15:00
+"Bandra Kurla Complex, Mumbai - MPCB",19.065931,72.862131,pm25,14.65,µg/m³,2026-08-27 02:00:00
+"Bandra Kurla Complex, Mumbai - MPCB",19.065931,72.862131,pm10,40.89,µg/m³,2026-08-27 02:00:00
+"Bandra Kurla Complex, Mumbai - MPCB",19.065931,72.862131,no2,4.64,ppb,2026-08-27 02:00:00
+"Chembur, Mumbai - MPCB",19.0364585,72.8954371,no2,10.39,ppb,2026-08-27 02:15:00
+"Chembur, Mumbai - MPCB",19.0364585,72.8954371,pm25,10.67,µg/m³,2026-08-27 02:15:00
+"Chembur, Mumbai - MPCB",19.0364585,72.8954371,pm10,27.76,µg/m³,2026-08-27 02:15:00
+"Kherwadi_Bandra East, Mumbai - MPCB",19.0632143,72.8456324,pm10,46.7,µg/m³,2026-08-27 02:00:00
+"Kherwadi_Bandra East, Mumbai - MPCB",19.0632143,72.8456324,no2,6.17,ppb,2026-08-27 02:00:00
+"Kherwadi_Bandra East, Mumbai - MPCB",19.0632143,72.8456324,pm25,9.32,µg/m³,2026-08-27 02:00:00
+"Sanpada, Navi Mumbai - MPCB",19.0575752,73.0151367,pm25,10.61,µg/m³,2026-08-26 22:15:00
+"Sanpada, Navi Mumbai - MPCB",19.0575752,73.0151367,no2,3.04,ppb,2026-08-26 22:15:00
+"Sanpada, Navi Mumbai - MPCB",19.0575752,73.0151367,pm10,45.77,µg/m³,2026-08-26 22:15:00
+"Byculla, Mumbai - BMC",18.9767,72.838,pm25,6.42,µg/m³,2026-08-27 02:15:00
+"Byculla, Mumbai - BMC",18.9767,72.838,pm10,21.16,µg/m³,2026-08-27 02:15:00
+"Byculla, Mumbai - BMC",18.9767,72.838,no2,6.55,ppb,2026-08-27 02:15:00
+"Shivaji Nagar, Mumbai - BMC",19.060498,72.923356,pm10,52.91,µg/m³,2026-08-27 02:30:00
+"Shivaji Nagar, Mumbai - BMC",19.060498,72.923356,no2,6.09,ppb,2026-08-27 02:30:00
+"Shivaji Nagar, Mumbai - BMC",19.060498,72.923356,pm25,7.92,µg/m³,2026-08-27 02:30:00
+"Kandivali West, Mumbai - BMC",19.215859,72.831718,pm10,17.84,µg/m³,2026-08-27 02:30:00
+"Kandivali West, Mumbai - BMC",19.215859,72.831718,pm25,9.91,µg/m³,2026-08-27 02:30:00
+"Kandivali West, Mumbai - BMC",19.215859,72.831718,no2,16.01,ppb,2026-08-27 02:30:00
+"Sewri, Mumbai - BMC",19.000084,72.85673,pm10,37.99,µg/m³,2026-08-27 01:15:00
+"Sewri, Mumbai - BMC",19.000084,72.85673,pm25,13.22,µg/m³,2026-08-27 01:15:00
+"Sewri, Mumbai - BMC",19.000084,72.85673,no2,7.34,ppb,2026-08-26 08:30:00
+"Ghatkopar, Mumbai - BMC",19.083694,72.920967,pm10,40.84,µg/m³,2026-08-27 02:15:00
+"Ghatkopar, Mumbai - BMC",19.083694,72.920967,pm25,13.09,µg/m³,2026-08-27 02:15:00
+"Ghatkopar, Mumbai - BMC",19.083694,72.920967,no2,1.71,ppb,2026-08-27 02:15:00
