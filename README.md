@@ -2,7 +2,6 @@
 
 An end-to-end data engineering and analytics pipeline that extracts live air quality metrics across the Mumbai Metropolitan Region from the **OpenAQ v3 API**, stores the data in a local **PostgreSQL** database via secure Unix Sockets, and delivers a fully interactive, map-enabled web dashboard using **Streamlit** and **Plotly**.
 
-👉 **[View the Live Interactive Dashboard Here](https://YOUR_STREAMLIT_APP_URL_HERE)** *(Powered by automated GitHub Data Backups)*
 
 ## 🚀 System Architecture
 ```text
